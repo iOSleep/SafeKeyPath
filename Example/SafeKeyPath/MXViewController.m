@@ -7,6 +7,7 @@
 //
 
 #import "MXViewController.h"
+#import <SafeKeyPath.h>
 
 @interface MXViewController ()
 
@@ -17,7 +18,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [UIButton new];
+    NSLog(@"simple obj  : %@", KeyPath(btn, state));
+    NSLog(@"simple class: %@", ClassKeyPath(UIButton, state));
+    
+    NSLog(@"multi obj   : %@", KeyPath(btn, titleLabel, text));
+    NSLog(@"multi class : %@", ClassKeyPath(UIButton, titleLabel, text));
+    
+    // to use in kvo
+    //    [btn addObserver:self forKeyPath:KeyPath(btn, titleLabel, text) options:NSKeyValueObservingOptionNew context:NULL];
 }
 
 - (void)didReceiveMemoryWarning

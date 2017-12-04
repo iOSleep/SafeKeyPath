@@ -1,18 +1,18 @@
 {
   "name": "SafeKeyPath",
   "version": "0.1.0",
-  "summary": "A short description of SafeKeyPath.",
+  "summary": "esay to use kvo safely",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mxyolande/SafeKeyPath",
+  "homepage": "https://github.com/iOSleep/SafeKeyPath",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "mxyolande": "maxu@innobuddy.com"
+    "iOSleep": "mx.yolande@gmail.com"
   },
   "source": {
-    "git": "https://github.com/mxyolande/SafeKeyPath.git",
+    "git": "https://github.com/iOSleep/SafeKeyPath.git",
     "tag": "0.1.0"
   },
   "platforms": {
