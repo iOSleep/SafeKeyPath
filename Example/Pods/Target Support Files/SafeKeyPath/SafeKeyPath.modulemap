@@ -1,0 +1,6 @@
+framework module SafeKeyPath {
+  umbrella header "SafeKeyPath-umbrella.h"
+
+  export *
+  module * { export * }
+}

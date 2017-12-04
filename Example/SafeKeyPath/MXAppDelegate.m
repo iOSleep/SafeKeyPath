@@ -2,8 +2,8 @@
 //  MXAppDelegate.m
 //  SafeKeyPath
 //
-//  Created by mxyolande on 12/04/2017.
-//  Copyright (c) 2017 mxyolande. All rights reserved.
+//  Created by iOSleep on 12/04/2017.
+//  Copyright (c) 2017 iOSleep. All rights reserved.
 //
 
 #import "MXAppDelegate.h"

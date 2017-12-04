@@ -1,0 +1,16 @@
+PODS:
+  - SafeKeyPath (0.1.0)
+
+DEPENDENCIES:
+  - SafeKeyPath (from `../`)
+
+EXTERNAL SOURCES:
+  SafeKeyPath:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SafeKeyPath: 22e9583c7dab8da98a19bc099f75b5e2474f7ed4
+
+PODFILE CHECKSUM: 896b7f3a4d75e3cd87a784066c21a2af3d764984
+
+COCOAPODS: 1.4.0.beta.2
