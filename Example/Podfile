@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SafeKeyPath_Example' do
+  pod 'SafeKeyPath', :path => '../'
+
+  target 'SafeKeyPath_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
